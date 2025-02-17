@@ -130,7 +130,7 @@ a {
     width: 15px;
     background-size: contain;
     padding: 15px;
-    background-image: url('../img/GithubIcons/github-dark-theme.svg');
+    background-image: url('../img/GithubIcons/Github-dark-theme.svg');
 }
 
 .logoEmail {
