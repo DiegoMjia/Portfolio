@@ -141,11 +141,11 @@ a {
     background-image: url('../img/GmailIcons/gmailNoMoreThemes.svg');
 }
 
-a p {
+/* a p {
     position: absolute;
     bottom: 0;
     padding: 20px;
-}
+} */
 
 @media (max-width: 768px) {
     .contactMe {
