@@ -38,7 +38,7 @@ h1, p {
 }
 
 .titleContainer {
-    max-width: 500px;
+    min-width: 500px;
     display: flex;
     margin-left: 110px;
     flex-direction: column;
@@ -61,8 +61,10 @@ h1 {
     }
 
     .titleContainer {
+        min-width: 0;
         margin-top: 10px;
         width: 100%;
+        margin-left: 0;
     }
 
     p {
