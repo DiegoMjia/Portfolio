@@ -81,3 +81,7 @@ button:focus-visible {
 html {
   scroll-behavior: smooth;
 }
+
+body.active {
+  background-color: #f0f0f0;
+}

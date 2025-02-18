@@ -1,19 +1,15 @@
 <script setup lang="ts">
-
 defineOptions({
     name: 'BodyPortfolio',
 })
-
 </script>
-
-
 
 <template>
     <div class="mainContainer">
         <div class="titleContainer">
             <h1>¡Hola, mi nombre es <b style="color: #646cff; font-weight: bold;">Diego!</b></h1>
             <section class="textContainer">
-                <p style="max-width: 540px; line-height: 1.6;">
+                <p style="line-height: 1.6;">
                     Desarrollador <b>web full-stack</b>. Gestiono proyectos de alto nivel, creando sitios web
                     con un alto estándar de <b>calidad</b>.
                 </p>
@@ -31,41 +27,44 @@ defineOptions({
     align-items: start;
 }
 
+h1, p {
+    color: #fff;
+    text-align: left;
+}
+
 .textContainer{
     display: flex;
     justify-content: center;
 }
 
 .titleContainer {
+    max-width: 500px;
     display: flex;
+    margin-left: 110px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     margin-top: 150px;
-}
-
-p {
-    text-align: left
 }
 
 h1 {
     font-size: 80px;
     font-weight: bold;
-    text-align: start;
-    margin: 20px;
-    margin-left: 110px;
+    margin: 20px auto;
 }
 
 @media (max-width: 768px) {
     .mainContainer {
         width: 100%;
         padding: 5px;
+        justify-content: center;
+
     }
 
     .titleContainer {
-        margin-top: 0;
+        margin-top: 10px;
+        width: 100%;
     }
-    
+
     p {
         text-align: center;
     }
@@ -81,5 +80,17 @@ h1 {
         display: none;
     }
     
+}
+</style>
+
+<style>
+body.active {
+    h1 {
+        color: #000;
+    }
+
+    p {
+        color: #000;
+    }
 }
 </style>
